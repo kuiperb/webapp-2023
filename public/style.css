@@ -1,0 +1,33 @@
+body {
+    background-color: , srgb(248, 240, 243);
+    color: rgb(102, 48, 138);
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+header{
+    text-align: center;
+    font-size: normal;
+    background-color: rgb(156, 40, 40);
+    color: rgb(214, 206, 219);
+}
+
+footer{
+    text-align: center;
+    font-size: normal;
+    font-style: italic;
+    background-color: rgb(88, 13, 228);
+    color: rgb(214, 206, 219);
+    position: absolute;
+    bottom: 10px;
+    width: 99%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+   }
+   
+.scrollable {
+   height: 600px;
+   overflow-y: auto;
+}
