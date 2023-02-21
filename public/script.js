@@ -1,4 +1,4 @@
-// Global access
+// Global access variable
 let data;
 
 // Import json data
@@ -6,7 +6,7 @@ fetch('data.json')
   .then(response => response.json())
   .then(json => {
     data = json;
-    page1();
+    startPage1();
   })
   .catch(error => console.error(error));
 
@@ -33,36 +33,23 @@ function generateTable(data, from, to) {
   return html;
 }
 
-// Buttons w/ event listener and slicing function
-var button1 = document.getElementById("page-1");
-button1.addEventListener("click", page1);
-
-function page1(){
+// Generate page
+function page(from, to){
   const tableContainer = document.getElementById('table-container');
-    tableContainer.innerHTML = generateTable(data, 0, 5);
+    tableContainer.innerHTML = generateTable(data, from, to);
 }
+
+// Event listeners
+var button1 = document.getElementById("page-1");
+button1.addEventListener("click", function() { page(0, 5); });
 
 var button2 = document.getElementById("page-2");
-button2.addEventListener("click", page2);
-
-function page2(){
-  const tableContainer = document.getElementById('table-container');
-    tableContainer.innerHTML = generateTable(data, 5, 10);
-}
+button2.addEventListener("click", function() { page(5, 10); });
 
 var button3 = document.getElementById("page-3");
-button3.addEventListener("click", page3);
+button3.addEventListener("click", function() { page(10, 13); });
 
-function page3(){
-  const tableContainer = document.getElementById('table-container');
-    tableContainer.innerHTML = generateTable(data, 10, 13);
-}
-
-// Sorting by column
-var button4 = document.getElementById("name-header");
-button.addEventListener("click", sortTable);
-
-function sortTable(column) {
-  jsonData.sort((a, b) => a[Object.keys(a)[column]] > b[Object.keys(b)[column]] ? 1 : -1);
-  page1();
+// Load page at start
+function startPage1() {
+  page(0, 5);
 }
