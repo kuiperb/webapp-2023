@@ -1,0 +1,56 @@
+body {
+    margin: auto;
+    text-align: center;
+    font-family: Verdana,sans-serif;
+    color:rgb(15, 15, 15);
+    background-color: whitesmoke;
+}
+
+.header {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    color: rgb(18, 18, 19);
+    font-family: Verdana;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background: rgb(112, 109, 109);
+}
+
+table {
+    border-radius: 15px;
+    margin: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:lightgrey;
+    padding-left: 120px;
+    padding-right: 150px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+th, td {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color:rgb(15, 15, 15);
+}
+
+footer {
+    padding-bottom: 40px;    
+}
+
+.space {
+    padding-bottom: 20px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+   
+
