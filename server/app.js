@@ -1,9 +1,10 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const fs = require('fs');
-
 const app = express();
-const port = 3000;
+
+module.exports = app;
+
 
 // parse incoming requests with json payloads
 app.use(bodyParser.json());
@@ -21,10 +22,7 @@ app.get('/', (req, res) => {
   res.send('Hallo van Express!')
 })
 
-app.listen(port, () => {
-  console.log(`App is listening at http://localhost:${port}`);
-});
-
+// routes 
 app.post('/data', (req, res) => {
   addPerson(req.body)
     .then(() => {
@@ -65,9 +63,9 @@ app.delete('/data/:name', (req, res) => {
       });
 });
 
+// controllers
 function addPerson(person) {
   return new Promise((resolve, reject) => {
-    // Read the existing data
     fs.readFile('./data.json', 'utf8', (readErr, data) => {
       if (readErr) {
         reject(readErr);
@@ -77,7 +75,6 @@ function addPerson(person) {
         // Add the new person to the data
         people.push(person);
 
-        // Write the updated data back to the file
         fs.writeFile('./data.json', JSON.stringify(people, null, 2), (writeErr) => {
           if (writeErr) {
             reject(writeErr);

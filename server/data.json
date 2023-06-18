@@ -76,11 +76,5 @@
     "age": 28,
     "mood": "happy",
     "image": "img/13.jfif"
-  },
-  {
-    "name": "21",
-    "age": 25,
-    "mood": "neutral",
-    "image": "img/21.jfif"
   }
 ]
