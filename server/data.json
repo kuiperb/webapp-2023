@@ -1,84 +1,86 @@
 [
-    {
-      "name": "1",
-      "age": 35,
-      "mood": "happy",
-      "image": "img/1.jfif"
-    },
-    {
-      "name": "2",
-      "age": 28,
-        "mood": "happy",
-        "image": "img/2.jfif"
-    },
-    {
-      "name": "3",
-      "age": 25,
-        "mood": "neutral",
-        "image": "img/3.jfif"
-    }
-    ,
-    {
-      "name": "4",
-      "age": 28,
-        "mood": "sad",
-        "image": "img/4.jfif"
-    }
-    ,
-    {
-      "name": "5",
-      "age": 35,
-        "mood": "sad",
-        "image": "img/5.jfif"
-    },
-    {
-      "name": "6",
-      "age": 29,
-        "mood": "neutral",
-        "image": "img/6.jfif"
-    },
-    {
-      "name": "7",
-      "age": 28,
-        "mood": "neutral",
-        "image": "img/7.jfif"
-    },
-    {
-      "name": "8",
-      "age": 31,
-        "mood": "sad",
-        "image": "img/8.jfif"
-    },
-    {
-      "name": "9",
-      "age": 28,
-        "mood": "sad",
-        "image": "img/9.jfif"
-    },
-    {
-      "name": "10",
-      "age": 70,
-        "mood": "happy",
-        "image": "img/10.jfif"
-    },
-    {
-      "name": "11",
-      "age": 36,
-        "mood": "happy",
-        "image": "img/11.jfif"
-    },
-    {
-      "name": "12",
-      "age": 22,
-        "mood": "happy",
-        "image": "img/12.jfif"
-    },
-    {
-      "name": "13",
-      "age": 28,
-        "mood": "happy",
-        "image": "img/13.jfif"
-    }
-
-    
+  {
+    "name": "1",
+    "age": 35,
+    "mood": "happy",
+    "image": "img/1.jfif"
+  },
+  {
+    "name": "2",
+    "age": 28,
+    "mood": "happy",
+    "image": "img/2.jfif"
+  },
+  {
+    "name": "3",
+    "age": 25,
+    "mood": "neutral",
+    "image": "img/3.jfif"
+  },
+  {
+    "name": "4",
+    "age": 28,
+    "mood": "sad",
+    "image": "img/4.jfif"
+  },
+  {
+    "name": "5",
+    "age": 35,
+    "mood": "sad",
+    "image": "img/5.jfif"
+  },
+  {
+    "name": "6",
+    "age": 29,
+    "mood": "neutral",
+    "image": "img/6.jfif"
+  },
+  {
+    "name": "7",
+    "age": 28,
+    "mood": "neutral",
+    "image": "img/7.jfif"
+  },
+  {
+    "name": "8",
+    "age": 31,
+    "mood": "sad",
+    "image": "img/8.jfif"
+  },
+  {
+    "name": "9",
+    "age": 28,
+    "mood": "sad",
+    "image": "img/9.jfif"
+  },
+  {
+    "name": "10",
+    "age": 70,
+    "mood": "happy",
+    "image": "img/10.jfif"
+  },
+  {
+    "name": "11",
+    "age": 36,
+    "mood": "happy",
+    "image": "img/11.jfif"
+  },
+  {
+    "name": "12",
+    "age": 22,
+    "mood": "happy",
+    "image": "img/12.jfif"
+  },
+  {
+    "name": "13",
+    "age": 28,
+    "mood": "happy",
+    "image": "img/13.jfif"
+  },
+  {
+    "name": "21",
+    "age": 25,
+    "mood": "neutral",
+    "image": "img/21.jfif"
+  }
 ]
