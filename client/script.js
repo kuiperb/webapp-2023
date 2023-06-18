@@ -2,7 +2,7 @@
 let data;
 
 // Import json data
-fetch('data.json')
+fetch('http://localhost:3000/data')
   .then(response => response.json())
   .then(json => {
     data = json;
@@ -70,7 +70,7 @@ document.getElementById("page-2").addEventListener("click", () => {
 });
 
 document.getElementById("page-3").addEventListener("click", () => {
-  page(10, 13);
+  page(10, 15);
   document.title = "Page 3";
 });
 

@@ -14,6 +14,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // serve static files from the 'client' directory.
 app.use(express.static('../client'));
 
+// serve img
+app.use('/img', express.static('img'));
+
 app.get('/', (req, res) => {
   res.send('Hallo van Express!')
 })
