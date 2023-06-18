@@ -1,10 +1,10 @@
-# Backend + Frontend Ben Kuiper
+# Backend Ben Kuiper
 
 ## URL
-https://github.com/kuiperb/webapp-2023/tree/development/frontend/public
+https://github.com/The-Hague-University/WA-2022-individual-20163355.git
 
 ## Versies
-- 0.1 
+- 1
 
 ## Auteur
 Ben Kuiper
