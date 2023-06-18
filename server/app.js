@@ -2,9 +2,13 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const fs = require('fs');
 const app = express();
+const cors = require('cors');
 
 module.exports = app;
 
+app.use(cors({
+  origin: 'http://localhost:3000'
+}));
 
 // parse incoming requests with json payloads
 app.use(bodyParser.json());
@@ -72,7 +76,6 @@ function addPerson(person) {
       } else {
         const people = JSON.parse(data);
 
-        // Add the new person to the data
         people.push(person);
 
         fs.writeFile('./data.json', JSON.stringify(people, null, 2), (writeErr) => {
