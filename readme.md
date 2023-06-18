@@ -1,4 +1,4 @@
-# Frontend Ben Kuiper
+# Backend + Frontend Ben Kuiper
 
 ## URL
 https://github.com/kuiperb/webapp-2023/tree/development/frontend/public
